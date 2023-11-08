@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: pruebas.CrossBrowserTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.32 s <<< FAILURE! - in pruebas.CrossBrowserTest
+setUp(pruebas.CrossBrowserTest)  Time elapsed: 0.21 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at pruebas.CrossBrowserTest.setUp(CrossBrowserTest.java:23)
+

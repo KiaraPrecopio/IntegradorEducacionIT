@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 08 17:33:25 ART 2023</td>
+</tr>
+<tr><td>Total time:</td><td>564 seconds (564033 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='integrador.Laboratorio1_Test.lab1_test()'><b>lab1_test</b><br>Test class: integrador.Laboratorio1_Test</td>
+<td></td>
+<td>0</td>
+<td>integrador.Laboratorio1_Test@7995092a</td></tr>
+<tr>
+<td title='integrador.Laboratorio5_E3_Test.activarAlerta()'><b>activarAlerta</b><br>Test class: integrador.Laboratorio5_E3_Test</td>
+<td></td>
+<td>0</td>
+<td>integrador.Laboratorio5_E3_Test@58670130</td></tr>
+<tr>
+<td title='integrador.Laboratorio5_E1_Test.adjuntarFile()'><b>adjuntarFile</b><br>Test class: integrador.Laboratorio5_E1_Test</td>
+<td></td>
+<td>2</td>
+<td>integrador.Laboratorio5_E1_Test@346939bf</td></tr>
+<tr>
+<td title='integrador.Laboratorio5_E2_Test.activarAlerta()'><b>activarAlerta</b><br>Test class: integrador.Laboratorio5_E2_Test</td>
+<td></td>
+<td>0</td>
+<td>integrador.Laboratorio5_E2_Test@4bf3798b</td></tr>
+<tr>
+<td title='integrador.Laboratorio1_Test.lab1_E2()'><b>lab1_E2</b><br>Test class: integrador.Laboratorio1_Test</td>
+<td></td>
+<td>244</td>
+<td>integrador.Laboratorio1_Test@7995092a</td></tr>
+<tr>
+<td title='integrador.Laboratorio6_E2_Test.buscarPalabra()'><b>buscarPalabra</b><br>Test class: integrador.Laboratorio6_E2_Test</td>
+<td></td>
+<td>2</td>
+<td>integrador.Laboratorio6_E2_Test@9bd0fa6</td></tr>
+<tr>
+<td title='integrador.Laboratorio3_Test.registroUsuario()'><b>registroUsuario</b><br>Test class: integrador.Laboratorio3_Test</td>
+<td></td>
+<td>4</td>
+<td>integrador.Laboratorio3_Test@13c3c1e1</td></tr>
+<tr>
+<td title='pruebas.Laboratorio4_E2_Test.inicioSesionInvalido()'><b>inicioSesionInvalido</b><br>Test class: pruebas.Laboratorio4_E2_Test<br>Parameters: tai.wisoky@hotmail.com, j2rbde3ldpha81</td>
+<td></td>
+<td>0</td>
+<td>pruebas.Laboratorio4_E2_Test@52350abb</td></tr>
+<tr>
+<td title='integrador.Laboratorio1_Test.lab1_E3()'><b>lab1_E3</b><br>Test class: integrador.Laboratorio1_Test</td>
+<td></td>
+<td>32</td>
+<td>integrador.Laboratorio1_Test@7995092a</td></tr>
+<tr>
+<td title='pruebas.Laboratorio4_E1_Test.crearCuentaInvalida()'><b>crearCuentaInvalida</b><br>Test class: pruebas.Laboratorio4_E1_Test</td>
+<td></td>
+<td>1</td>
+<td>pruebas.Laboratorio4_E1_Test@114a85c2</td></tr>
+<tr>
+<td title='pruebas.Laboratorio4_E1_Test.irRegistroLogin()'><b>irRegistroLogin</b><br>Test class: pruebas.Laboratorio4_E1_Test</td>
+<td></td>
+<td>0</td>
+<td>pruebas.Laboratorio4_E1_Test@114a85c2</td></tr>
+<tr>
+<td title='integrador.Laboratorio2_Test.lab2_E1()'><b>lab2_E1</b><br>Test class: integrador.Laboratorio2_Test</td>
+<td></td>
+<td>28</td>
+<td>integrador.Laboratorio2_Test@2a32de6c</td></tr>
+<tr>
+<td title='integrador.Laboratorio1_Test.lab1_E1()'><b>lab1_E1</b><br>Test class: integrador.Laboratorio1_Test</td>
+<td></td>
+<td>177</td>
+<td>integrador.Laboratorio1_Test@7995092a</td></tr>
+<tr>
+<td title='integrador.Laboratorio6_E1_Test.buscarPalabra()'><b>buscarPalabra</b><br>Test class: integrador.Laboratorio6_E1_Test</td>
+<td></td>
+<td>2</td>
+<td>integrador.Laboratorio6_E1_Test@74e47444</td></tr>
+<tr>
+<td title='pruebas.CrossBrowserTest.busquedaPagina()'><b>busquedaPagina</b><br>Test class: pruebas.CrossBrowserTest</td>
+<td></td>
+<td>1</td>
+<td>pruebas.CrossBrowserTest@59d2103b</td></tr>
+</table><p>
+</body>
+</html>

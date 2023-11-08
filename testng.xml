@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="integrador.Laboratorio3_Test"/>
+      <class name="integrador.Laboratorio1_Test"/>
+      <class name="integrador.Laboratorio2_Test"/>
+      <class name="pruebas.Laboratorio4_E1_Test"/>
+      <class name="pruebas.Laboratorio4_E2_Test"/>
+      <class name="integrador.Laboratorio5_E1_Test"/>
+      <class name="integrador.Laboratorio5_E2_Test"/>
+      <class name="integrador.Laboratorio5_E3_Test"/>
+      <class name="integrador.Laboratorio6_E1_Test"/>
+      <class name="integrador.Laboratorio6_E2_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
